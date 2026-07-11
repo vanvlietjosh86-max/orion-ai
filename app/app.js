@@ -50,3 +50,10 @@ function showSection(sectionName) {
     });
 
 }
+// ORION Startup
+
+window.onload = function() {
+
+    showSection("home");
+
+};
