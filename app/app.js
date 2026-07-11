@@ -97,3 +97,48 @@ function loadLessons() {
     lessonContainer.innerHTML = output;
 
 }
+// ORION Explain Like I'm New Engine
+
+
+function explainTopic(topic) {
+
+
+    const box = document.getElementById("explanation-box");
+
+
+    if (!box) {
+        return;
+    }
+
+
+    const explanation = explanations[topic];
+
+
+    if (explanation) {
+
+
+        box.innerHTML = `
+
+        <h4>${explanation.title}</h4>
+
+        <p>
+        ${explanation.simple}
+        </p>
+
+        <p>
+        <strong>Example:</strong>
+        ${explanation.example}
+        </p>
+
+        `;
+
+
+    } else {
+
+
+        box.innerHTML =
+        "ORION does not have an explanation for that topic yet.";
+
+    }
+
+}
