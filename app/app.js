@@ -57,3 +57,43 @@ window.onload = function() {
     showSection("home");
 
 };
+// ORION Learning Engine
+
+function loadLessons() {
+
+    const lessonContainer = document.getElementById("lesson-list");
+
+    if (!lessonContainer) {
+        return;
+    }
+
+
+    let output = "";
+
+
+    lessons.forEach(function(lesson) {
+
+        output += `
+
+        <div class="card">
+
+            <h4>${lesson.title}</h4>
+
+            <p>
+            Level: ${lesson.level}
+            </p>
+
+            <p>
+            ${lesson.content}
+            </p>
+
+        </div>
+
+        `;
+
+    });
+
+
+    lessonContainer.innerHTML = output;
+
+}
