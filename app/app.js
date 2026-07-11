@@ -21,3 +21,32 @@ function askOrion() {
     alert(orionResponses.welcome);
 
 }
+
+// ORION Navigation System
+
+function showSection(sectionName) {
+
+    const sections = [
+        "home",
+        "learn",
+        "portfolio",
+        "settings"
+    ];
+
+    sections.forEach(function(section) {
+
+        const element = document.getElementById(section);
+
+        if (element) {
+
+            if (section === sectionName) {
+                element.style.display = "block";
+            } else {
+                element.style.display = "none";
+            }
+
+        }
+
+    });
+
+}
