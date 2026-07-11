@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #0b1020;
+    color: white;
+}
+
+.app {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 30px 10px;
+}
+
+header h1 {
+    font-size: 42px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+header p {
+    opacity: 0.8;
+    line-height: 1.5;
+}
+
+.card {
+    background: #151d35;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+.card h2,
+.card h3 {
+    margin-top: 0;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 12px;
+    border: none;
+    font-size: 18px;
+    background: #ffffff;
+    color: #0b1020;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
