@@ -142,3 +142,6 @@ function explainTopic(topic) {
     }
 
 
+const investorHealth = calculateInvestorHealth();
+
+console.log(investorHealth);
