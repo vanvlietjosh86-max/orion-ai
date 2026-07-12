@@ -142,3 +142,14 @@ function explainTopic(topic) {
     }
 
 }
+export function calculateInvestorHealth(user) {
+    return {
+        overall: 84,
+        diversification: 17,
+        consistency: 20,
+        risk: 14,
+        knowledge: 18,
+        discipline: 15,
+        status: "On Course"
+    };
+}
