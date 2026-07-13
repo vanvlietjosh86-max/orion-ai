@@ -1,0 +1,32 @@
+{
+  "holdings": [
+    {
+      "ticker": "VAS",
+      "name": "Vanguard Australian Shares ETF",
+      "allocation": 40,
+      "sector": "ETF",
+      "country": "Australia"
+    },
+    {
+      "ticker": "IVV",
+      "name": "iShares S&P 500 ETF",
+      "allocation": 30,
+      "sector": "ETF",
+      "country": "United States"
+    },
+    {
+      "ticker": "CSL",
+      "name": "CSL Limited",
+      "allocation": 20,
+      "sector": "Healthcare",
+      "country": "Australia"
+    },
+    {
+      "ticker": "BOT",
+      "name": "Botanix Pharmaceuticals",
+      "allocation": 10,
+      "sector": "Healthcare",
+      "country": "Australia"
+    }
+  ]
+}
