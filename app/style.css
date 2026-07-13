@@ -54,3 +54,21 @@ button {
 button:hover {
     opacity: 0.85;
 }
+.health-card {
+    background: #16233b;
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.health-score {
+    font-size: 48px;
+    font-weight: bold;
+    color: silver;
+}
+
+.health-status {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
