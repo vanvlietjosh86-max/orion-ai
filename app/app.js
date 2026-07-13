@@ -15,6 +15,33 @@ const orionResponses = {
         "Investing is the process of putting money into assets that may grow in value over time. The goal is usually long-term wealth creation rather than quick profits."
 };
 
+function updateInvestorHealth() {
+
+    const investorHealth = calculateInvestorHealth();
+
+    document.getElementById("health-score").textContent =
+        investorHealth.overall;
+
+    document.getElementById("health-status").textContent =
+        investorHealth.status;
+
+    document.getElementById("diversification-score").textContent =
+        investorHealth.diversification + "/20";
+
+    document.getElementById("consistency-score").textContent =
+        investorHealth.consistency + "/20";
+
+    document.getElementById("risk-score").textContent =
+        investorHealth.risk + "/20";
+
+    document.getElementById("knowledge-score").textContent =
+        investorHealth.knowledge + "/20";
+
+    document.getElementById("discipline-score").textContent =
+        investorHealth.discipline + "/20";
+
+}
+
 
 function askOrion() {
 
