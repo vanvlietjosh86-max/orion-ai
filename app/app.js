@@ -83,6 +83,10 @@ window.onload = function() {
 
     showSection("home");
 
+    updateInvestorHealth();
+
+};
+
 };
 // ORION Learning Engine
 
