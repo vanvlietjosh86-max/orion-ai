@@ -6,11 +6,11 @@
 function calculateInvestorHealth() {
 
     const health = {
-        diversification: 17,
-        consistency: 20,
-        risk: 14,
-        knowledge: 18,
-        discipline: 15
+        diversification: scoreDiversification(17),
+        consistency: scoreConsistency(20),
+risk: scoreRisk(14),
+knowledge: scoreKnowledge(18),
+discipline: scoreDiscipline(15),
     };
 
     health.overall =
